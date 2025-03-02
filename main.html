@@ -18,13 +18,52 @@
         </div>
         <div class="flex-none">
             <ul class="menu menu-horizontal px-1">
-                <li id="home"><a  class="text-lg font-bold bg-blue-500 text-white">Back To Home</a></li>
+                <li id="home"><a class="text-lg font-bold bg-blue-500 text-white">Back To Home</a></li>
             </ul>
         </div>
     </div>
     <main>
         <h1 class="text-center text-2xl font-bold">blog</h1>
-        
+        <section>
+            <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div class="collapse-title font-semibold">Question-1: What are the different ways to select an element
+                    in the DOM?</div>
+                <div class="collapse-content text-sm"> getElementById , getElementsByClassName,
+                    getElementsByTagName,querySelector ,querySelectorAll. </div>
+            </div>
+            <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title font-semibold">Question-2: What is the difference between innerHTML,  innerText, and textContent ?
+                </div>
+                <div class="collapse-content text-sm">
+                    innerHTML: অনেকগুলো ট্যাগ এলিমেন্ট একসাথে দেওয়া যায় 
+
+                    innerText : শুধুমাত্র টেক্সট কন্টেন দেখা যায় 
+                    textContent: এটা অনেকটা innerHTML মত 
+                </div>
+            </div>
+            <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title font-semibold">Question-3: What is event delegation in the DOM?</div>
+                <div class="collapse-content text-sm">event delegation  হচ্ছে প্যারেন্ট এলিমেন্ট থেকে চাইল্ড এলিমেন্টের ইভেন হ্যান্ডেল করে এখানে চাইল্ড ইভেন্ট ঘটলে  সেটা প্যারেন্ট এলিমেন্ট পর্যন্ত চলে যায়</div>
+            </div>
+            <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title font-semibold">What is event bubbling in the DOM?</div>
+                <div class="collapse-content text-sm">event bubbling  হল এমন একটি প্রক্রিয়ায় যেটাকে কোন ইভেন্টিক প্রথমে টার্গেট করলে এটা প্যারেন্ট  এলিমেন্ট এর দিকে নিয়ে যায়।</div>
+            </div>
+            <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title font-semibold">Question-5: How do you create, add, and remove elements using JavaScript?</div>
+                <div class="collapse-content text-sm"> 
+                    create : createElement() ;
+                    add : appendChild() , add() 
+                    remove :remove()
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <script src="./script/function.js"></script>
