@@ -72,7 +72,7 @@ setValue('days',day)
     }
  
 document.getElementById('discover-today').addEventListener('click',function(){
-    window.location.href = "/main.html";
+    window.location.href = "main.html";
 })
 // 
 
